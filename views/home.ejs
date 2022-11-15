@@ -1,0 +1,19 @@
+<!-- This is applied on which you want to repeatedly apply -->
+<!-- <% project.forEach((ele)=>{%>               (#HTML_CODE_HERE)                       <%}); %> -->
+
+<!-- This is for adding the attribute  -->
+<!-- <% /*ele.attribute_name_from_table*/ %> -->
+
+
+<!-- Warning : Cautious on commenting in EJS -->
+
+
+<!-- for each ele in project - do the following -->
+<% project.forEach((ele)=>{%>
+    <h1>
+        <!-- add attribute which you want to render -->
+        <%=ele.u_name%> , <%=ele.age%> , <%=ele.mobile%>
+    </h1>
+    <%});%>
+        <h1><a href="sign_up">ADD MORE USERS</a></h1>
+        <h1><a href=""></a></h1>

@@ -1,0 +1,12 @@
+<!-- This is applied on which you want to repeatedly apply -->
+<!-- <% project.forEach((ele)=>{%>               (#HTML_CODE_HERE)                       <%}); %> -->
+
+
+<!-- This is for adding the attribute -->
+<!-- <%=ele.attribute_name_from_table%> -->
+
+<!-- For eg: -->
+
+        <!-- <% project.forEach((ele)=>{%> 
+        <h1><%=ele.u_name%></h1>
+<%});%> -->

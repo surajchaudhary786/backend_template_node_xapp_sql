@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signuptab</title>
+</head>
+
+<body>
+    <form action="/usersignup" method="post">
+        <h2 style="padding-bottom:10px;">Sign Up</h2>
+        <p style="text-align: left;margin-bottom: -2px;padding-left: 10px;">Name<span style="color: red;">*</span></p>
+        <div class="form-floating"
+            style="z-index: 2;margin-bottom: 10px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;">
+            <label for="name"></label>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Abc" required>
+        </div>
+        <p style="text-align: left;margin-bottom: -2px;padding-left: 10px;">Email ID<span style="color: red;">*</span>
+        </p>
+        <div class="form-floating"
+            style="z-index: 2;margin-bottom: 10px;border-bottom-right-radius: 0;border-bottom-left-radius: 0;">
+            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com" required>
+        </div>
+        <p style="text-align: left;margin-bottom: -1.7px;padding-left: 10px;">Age<span style="color: red;">*</span></p>
+        <div class="form-floating"
+            style="z-index: 2;margin-bottom: 10px;border-top-left-radius: 0;border-top-right-radius: 0;">
+            <input type="number" class="form-control" name="age" id="age" placeholder="age" min="1" max="99" required>
+        </div>
+        <p style="text-align: left;margin-bottom: -2px;padding-left: 10px;">Mobile<span style="color: red;">*</span></p>
+        <div class="form-floating"
+            style="z-index: 2;margin-bottom: 10px;border-top-left-radius: 0;border-top-right-radius: 0;">
+            <input type="tel" name="mobile" pattern="[0-9]{10}" class="form-control" id="mob" placeholder="9876543210"
+                required>
+        </div>
+        <button type="submit" style="margin-top:5px;" id="btn123" class="btn btn-primary">Sign up</button>
+    </form>
+</body>
+
+</html>
